@@ -1,0 +1,30 @@
+{
+  "name": "machiseo-new",
+  "version": "1.0.0",
+  "description": "My swell Nuxt.js project",
+  "author": "Ballmdr",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
+    "chart.js": "^2.9.3",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "hover.css": "^2.3.2",
+    "jsonapi-parse": "^2.0.0",
+    "moment": "^2.26.0",
+    "nuxt": "^2.12.2",
+    "vue-chartjs": "^3.5.0",
+    "vue-filter": "^0.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
