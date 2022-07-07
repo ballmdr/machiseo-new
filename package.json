@@ -19,7 +19,7 @@
     "express": "^4.17.1",
     "hover.css": "^2.3.2",
     "jsonapi-parse": "^2.0.0",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "nuxt": "^2.12.2",
     "vue-chartjs": "^3.5.0",
     "vue-filter": "^0.2.5"
